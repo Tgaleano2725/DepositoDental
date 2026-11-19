@@ -1,0 +1,6 @@
+{
+  "name": "DepositoDental",
+  "description": "Inventario odontológico seguro en SQLite con inicio de sesión protegido, cifrado AES-256-GCM, validación de formularios, alertas de stock y estadísticas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

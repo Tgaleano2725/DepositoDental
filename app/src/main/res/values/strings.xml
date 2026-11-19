@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">DepositoDental</string>
+    <string name="app_tagline">Gestión segura de inventario odontológico</string>
+    <string name="logo_content_description">Logotipo oficial de DepositoDental</string>
+
+    <!-- Login -->
+    <string name="login_title">Acceso al Inventario</string>
+    <string name="login_subtitle">Base de datos SQLite protegida con cifrado AES-256-GCM</string>
+    <string name="login_username_label">Usuario</string>
+    <string name="login_username_placeholder">Ingresa tu usuario</string>
+    <string name="login_password_label">Contraseña</string>
+    <string name="login_password_placeholder">Ingresa tu contraseña</string>
+    <string name="login_button">Iniciar sesión</string>
+    <string name="login_show_password">Mostrar contraseña</string>
+    <string name="login_hide_password">Ocultar contraseña</string>
+    <string name="login_security_badge">PBKDF2-SHA256 • AES-256-GCM • SQLite</string>
+    <string name="login_error_username_empty">El usuario es obligatorio.</string>
+    <string name="login_error_username_invalid">El usuario contiene caracteres no permitidos.</string>
+    <string name="login_error_password_empty">La contraseña es obligatoria.</string>
+    <string name="login_error_invalid_credentials">Credenciales incorrectas. Verifica usuario y contraseña.</string>
+    <string name="login_error_locked">Demasiados intentos fallidos. Espera %1$d segundos.</string>
+    <string name="login_attempts_remaining">Intentos restantes antes de bloqueo: %1$d</string>
+
+    <!-- Navigation -->
+    <string name="nav_inventory">Inventario</string>
+    <string name="nav_movements">Movimientos</string>
+    <string name="nav_summary">Resumen</string>
+    <string name="action_logout">Cerrar sesión</string>
+    <string name="action_add_product">Nuevo producto</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_confirm">Confirmar</string>
+
+    <!-- Inventory -->
+    <string name="search_placeholder">Buscar producto o categoría…</string>
+    <string name="clear_search">Limpiar búsqueda</string>
+    <string name="filter_all">Todos</string>
+    <string name="filter_low_stock">Stock bajo</string>
+    <string name="filter_expiring">Caducidad</string>
+    <string name="badge_encrypted">Cifrado</string>
+    <string name="badge_out_of_stock">Agotado</string>
+    <string name="badge_low_stock">Stock bajo</string>
+    <string name="badge_expired">Caducado</string>
+    <string name="badge_expiring_soon">Por caducar</string>
+    <string name="badge_optimal">Óptimo</string>
+    <string name="empty_inventory_title">Sin productos coincidentes</string>
+    <string name="empty_inventory_subtitle">Ajusta los filtros o registra un nuevo producto odontológico en el inventario cifrado.</string>
+    <string name="delete_dialog_title">Eliminar producto</string>
+    <string name="delete_dialog_message">¿Seguro que deseas eliminar \"%1$s\" y su historial de movimientos de SQLite? Esta acción no se puede deshacer.</string>
+
+    <!-- Product Form -->
+    <string name="form_new_title">Nuevo producto dental</string>
+    <string name="form_edit_title">Editar producto dental</string>
+    <string name="form_name_label">Nombre del producto *</string>
+    <string name="form_category_label">Categoría dental *</string>
+    <string name="form_quantity_label">Cantidad (Stock) *</string>
+    <string name="form_price_label">Precio unitario ($) *</string>
+    <string name="form_alerts_section">Alertas opcionales (Stock mínimo y caducidad)</string>
+    <string name="form_min_stock_label">Stock mínimo de alerta</string>
+    <string name="form_expiry_label">Fecha de caducidad (AAAA-MM-DD)</string>
+    <string name="form_pick_date">Seleccionar fecha</string>
+    <string name="form_clear_date">Limpiar fecha</string>
+
+    <!-- Movements -->
+    <string name="movements_title">Entradas y Salidas</string>
+    <string name="movements_subtitle">Control rápido de reposiciones y consumo clínico</string>
+    <string name="movement_entry">Entrada</string>
+    <string name="movement_exit">Salida</string>
+    <string name="movement_register">Registrar movimiento</string>
+    <string name="movement_select_product">Producto *</string>
+    <string name="movement_quantity_label">Cantidad *</string>
+    <string name="movement_reason_label">Motivo o referencia (opcional)</string>
+    <string name="movement_empty">Aún no hay movimientos registrados.</string>
+
+    <!-- Summary & Security -->
+    <string name="summary_title">Resumen del Almacén</string>
+    <string name="kpi_total_value">Valor total</string>
+    <string name="kpi_total_products">Productos</string>
+    <string name="kpi_total_units">Unidades</string>
+    <string name="kpi_active_alerts">Alertas activas</string>
+    <string name="summary_category_breakdown">Valor por categoría dental</string>
+    <string name="summary_alerts_attention">Requieren atención</string>
+    <string name="summary_no_alerts">Todo el inventario está en niveles óptimos y vigentes.</string>
+    <string name="security_card_title">Protección de Datos SQLite</string>
+    <string name="security_card_subtitle">Todos los nombres, categorías, precios y fechas se cifran con AES-256-GCM antes de escribirse en SQLite.</string>
+    <string name="security_show_cipher">Ver muestra cifrada en SQLite</string>
+    <string name="security_hide_cipher">Ocultar muestra cifrada</string>
+</resources>
